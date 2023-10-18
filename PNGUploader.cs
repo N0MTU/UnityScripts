@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEditor;
 using System.IO;
 
-public class CSVUploader : MonoBehaviour
+public class PNGUploader : MonoBehaviour
 {
 //User can upload an image of their choice and have it replace a raw image in-game
     string path;
