@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "recapdb";
+$dbname = "testdb1";
 
 
 //variables from user
@@ -16,7 +16,7 @@ die("Connection failed: " . $conn->connect_error);
 
 }
 
-echo "CONNECTED SUCCESSFULLY FUCKING HELL YEAH IDIOTS". "<br>";
+echo "CONNECTED SUCCESSFULLY". "<br>";
 // Get user password
 $sql = "SELECT username FROM users WHERE username = '" . $loginuser . "'";
 
